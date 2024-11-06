@@ -3,42 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>მერცხალი - საინტერესო ფაქტები და ინფორმაცია</title>
+    <title>მერცხალი - ბუნების მარჯვე ფრინველი</title>
     <style>
         /* ძირითადი სტილები */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f3f4f6;
+            background-color: #f9f9f9;
             color: #333;
             margin: 0;
             padding: 0;
         }
 
-        /* ჰედერის დიზაინი */
+        /* ჰედერი */
         header {
-            background-color: #2c3e50;
+            background-color: #4a90e2;
             color: white;
             text-align: center;
-            padding: 20px 0;
+            padding: 20px;
         }
+
         h1 {
             font-size: 2.5em;
             margin: 0;
         }
 
-        /* მთავარი კონტენტი */
+        /* კონტენტი */
         .content {
             max-width: 900px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #ffffff;
+            background-color: white;
             border-radius: 8px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         h2 {
-            color: #34495e;
-            border-left: 4px solid #3498db;
+            color: #2c3e50;
+            border-left: 4px solid #4a90e2;
             padding-left: 10px;
             font-size: 1.8em;
             margin-top: 20px;
@@ -58,40 +59,14 @@
             background-color: #ecf0f1;
             padding: 15px;
             margin: 20px 0;
-            border-left: 5px solid #3498db;
+            border-left: 5px solid #4a90e2;
             border-radius: 5px;
-            position: relative;
         }
         .fact-box strong {
             color: #2980b9;
         }
 
-        /* ღილაკი */
-        button {
-            display: inline-block;
-            padding: 12px 25px;
-            font-size: 16px;
-            color: #ffffff;
-            background-color: #3498db;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-            margin-top: 10px;
-        }
-        button:hover {
-            background-color: #2980b9;
-        }
-
-        /* დამატებითი ინფორმაცია */
-        .extra-info {
-            display: none;
-            margin-top: 10px;
-            padding: 10px;
-            border-top: 1px solid #ccc;
-        }
-
-        /* მერცხლის სურათი */
+        /* სურათი */
         .bird-image {
             text-align: center;
             margin-top: 20px;
@@ -101,50 +76,109 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
+        /* შეკითხვების ღილაკი */
+        .questions-button {
+            display: block;
+            width: 100%;
+            max-width: 200px;
+            margin: 30px auto;
+            padding: 12px;
+            background-color: #4a90e2;
+            color: white;
+            text-align: center;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .questions-button:hover {
+            background-color: #357abd;
+        }
+
+        /* შეკითხვების ტექსტი */
+        .question-box {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #ecf0f1;
+            border-radius: 5px;
+            font-size: 1.2em;
+            color: #333;
+            border-left: 5px solid #4a90e2;
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>მერცხალი - საინტერესო ფაქტები და ინფორმაცია</h1>
+    <h1>მერცხალი - ბუნების მარჯვე ფრინველი</h1>
 </header>
 
 <div class="content">
-    <h2>მერცხლის ძირითადი მახასიათებლები</h2>
-    <p>მერცხალი (Hirundinidae) პატარა და ელეგანტური ჩიტია, რომელიც ცნობილია თავისი უნიკალური ფრენით და ბუდეების მშენებლობით. მერცხლები ხშირად სახლდებიან ადამიანების გვერდით და მჭიდროდ არიან დაკავშირებულნი ჩვენს გარემოსთან.</p>
+    <h2>მერცხლის აღწერა და განსაკუთრებულობები</h2>
+    <p>მერცხალი (Hirundinidae) ცნობილია თავისი უნიკალური სილამაზითა და ავიაციის უნარით. ეს ფრინველები აქვთ წვრილი და აეროდინამიკური სხეული, რომელიც სპეციალურად შექმნილია სწრაფი და მანევრული ფრენისთვის. მერცხლები იყენებენ ფრენის დროს სიჩქარესა და სიზუსტეს, რაც მათ საშუალებას აძლევს ეფექტურად დაიჭირონ მცირე ზომის მწერები.</p>
 
     <div class="bird-image">
-        <img src="mercxali.jpg" alt="მერცხალი">
+        <img src="mercxali.jpg" alt="მერცხალი მფრინავს ცაში">
     </div>
 
-    <h2>მერცხლების სახეობები</h2>
-    <p>არსებობს მერცხლების სხვადასხვა სახეობა:</p>
-    <ul>
-        <li><strong>მარტოხელა მერცხალი</strong> - გამოირჩევა სწრაფი და აკრობატული ფრენით.</li>
-        <li><strong>დასავლეთის მერცხალი</strong> - ხშირად სახლდება წყლის მახლობლად.</li>
-        <li><strong>ჩალის მერცხალი</strong> - ცნობილია მისი მიგრაციით და ბუდეების აშენებით სახურავებზე.</li>
-    </ul>
+    <h2>გეოგრაფიული გავრცელება და ჰაბიტატი</h2>
+    <p>მერცხლები გავრცელებულია თითქმის მთელ მსოფლიოში, გარდა პოლარულ ზონებისა და ყველაზე ცხელი უდაბნოებისა. ისინი ხშირად ირჩევენ გაშლილ ტერიტორიებს, მდინარეებსა და ტბის ნაპირებს, სადაც მწერების უხვი რაოდენობაა.</p>
+
+    <h2>ბუდეებისა და თავშესაფრების აშენება</h2>
+    <p>მერცხლები ერთგულები არიან თავიანთი ბუდეების მიმართ და ხშირად ბრუნდებიან იმავე ადგილას წლების განმავლობაში. ისინი ტალახისა და ბალახის გამოყენებით, ხშირად ხიდებისა და შენობების ქვეშ, აშენებენ მტკიცე ბუდეებს. მათი უნარი და ფრთხილი მიდგომა ბუდეების მშენებლობისას აღფრთოვანებას იწვევს.</p>
 
     <h2>მიგრაცია</h2>
-    <p>მერცხლები ყოველ წელს გადაადგილდებიან ათასობით კილომეტრს თბილ ქვეყნებში ზამთრის თავიდან ასაცილებლად. მათი მიგრაცია ეკოლოგიურ ბალანსს ამყარებს და ხელს უწყობს ბუნებრივი ჰარმონიის შენარჩუნებას.</p>
-
+    <p>მერცხლები ცნობილი მიგრანტები არიან. ისინი გადიან ათასობით კილომეტრს ყოველწლიურად, რათა ზამთარში უფრო თბილ ადგილებში მოხვდნენ. მიგრაციის პერიოდში ისინი უამრავ განსაცდელს გადალახავენ, მათ შორის ძლიერ ქარებსა და წვიმებს.</p>
     <div class="fact-box">
         <strong>იცოდით თუ არა?</strong>
-        <p>მერცხლები წლიურად 10,000 კილომეტრსაც დაფარავენ!</p>
-        <button onclick="toggleInfo()">დეტალური ინფორმაცია</button>
-        <div id="extraInfo" class="extra-info">
-            <p>მერცხლები მრავალი დაბრკოლების დაძლევას ცდილობენ მიგრაციის დროს, რადგან მათ უწევთ იბრძოლონ ქარების, კლიმატისა და სხვა სირთულეების წინააღმდეგ. მიუხედავად ამისა, ისინი ხშირად წარმატებით ასრულებენ რთულ მოგზაურობას.</p>
-        </div>
+        <p>მერცხლების ზოგი სახეობა შესაძლოა დაფაროს 10,000 კილომეტრი მიგრაციის დროს! მათ აქვთ განსაცვიფრებელი მეხსიერება, რაც ეხმარებათ ყოველ წელს იგივე მარშრუტით დაბრუნებაში.</p>
     </div>
+
+    <h2>მერცხლების საკვები</h2>
+    <p>მერცხლების ძირითადი საკვები მწერები არიან, რაც მათ გარემოს ბალანსის შენარჩუნების ერთ-ერთ ბუნებრივ საშუალებად აქცევს. მერცხლები ახდენენ პესტიციდების ბუნებრივ შემცირებას და ეხმარებიან სოფლის მეურნეობას.</p>
+    
+    <h2>მერცხლების სახეობები და საინტერესო ფაქტები</h2>
+    <ul>
+        <li><strong>მარტოხელა მერცხალი:</strong> ეს სახეობა გამოირჩევა აგრესიული, სწრაფი ფრენით და თავისი უნიკალური ბუდეებით, რომლებიც ხშირად ქუჩებსა და გზებთან ახლოს არის აშენებული.</li>
+        <li><strong>დასავლეთის მერცხალი:</strong> დასავლეთის მერცხალი მტკნარი წყლის ადგილებს ანიჭებს უპირატესობას და ხშირად სახლდება მდინარის ნაპირებთან.</li>
+        <li><strong>ჩალის მერცხალი:</strong> ეს სახეობა ბუდეების აშენებას ხშირად შენობების ქვეშ ან სხვა მსგავსი თავშესაფრების მახლობლად ამჯობინებს.</li>
+    </ul>
+
+    <h2>ეკოლოგიური როლი და მნიშვნელობა</h2>
+    <p>მერცხლები მნიშვნელოვანი როლს ასრულებენ ეკოსისტემის ბალანსის შენარჩუნებაში. მათი მთავარი საკვები მწერებია, რაც მათ ბუნებრივ მწერების კონტროლის საშუალებად აქცევს. მერცხლების არსებობა მნიშვნელოვნად ამცირებს მწერების პოპულაციას და, შედეგად, ამცირებს სოფლის მეურნეობის ზარალსაც.</p>
+
+    <!-- შეკითხვების ღილაკი -->
+    <button class="questions-button" onclick="showQuestion()">შეკითხვები</button>
+
+    <!-- შეკითხვების ბლოკი -->
+    <div class="question-box" id="question-box"></div>
 </div>
 
 <script>
-    function toggleInfo() {
-        const extraInfo = document.getElementById('extraInfo');
-        if (extraInfo.style.display === 'none' || extraInfo.style.display === '') {
-            extraInfo.style.display = 'block';
-        } else {
-            extraInfo.style.display = 'none';
+    const questions = [
+        "რა არის მერცხლის ძირითადი საკვები?",
+        "რატომ არის მერცხლები მნიშვნელოვანი ეკოლოგიური სისტემისთვის?",
+        "რომელი სახეობები გვხვდება მერცხლის ოჯახში?"
+    ];
+    
+    let currentQuestion = 0;
+
+    function showQuestion() {
+        const questionBox = document.getElementById("question-box");
+        questionBox.style.display = "block";
+        
+        // ახალი შეკითხვის ჩვენება
+        questionBox.textContent = questions[currentQuestion];
+        
+        // შეკითხვების განახლება
+        currentQuestion++;
+        if (currentQuestion >= questions.length) {
+            currentQuestion = 0;
         }
     }
 </script>
